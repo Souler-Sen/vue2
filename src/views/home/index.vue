@@ -1,5 +1,5 @@
 <template>
-  <div>12345</div>
+  <div>{{msg}}</div>
 </template>
 
 <script>
@@ -7,6 +7,7 @@ export default {
     name: 'home',
   data () {
     return {
+      msg: '123456'
     }
   },
   created () {
