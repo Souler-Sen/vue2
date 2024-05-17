@@ -1,4 +1,8 @@
-# demo
+# vue2空白项目
+  如有需要可直接拉取使用
+  
+## 配置内容：
+  VueX、VueRouter、Axios、Element-UI、Scss、Eslint
 
 ## Project setup
 ```
