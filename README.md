@@ -10,14 +10,24 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
+
+项目本地运行
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
+测试站点打包
 ```
-npm run build
+npm run build:test
 ```
+
+正式站点打包
+```
+npm run build:prod
+```
+
 
 ### Lints and fixes files
 ```
