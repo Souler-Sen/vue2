@@ -7,7 +7,7 @@ export default {
     name: 'home',
   data () {
     return {
-      msg: '123456'
+      msg: '首页'
     }
   },
   created () {
