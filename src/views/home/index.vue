@@ -1,10 +1,17 @@
 <template>
-  <div>{{msg}}</div>
+  <div>
+    {{ msg }}
+    <hello-world :msg="msg"></hello-world>
+  </div>
 </template>
 
 <script>
+import HelloWorld from "../../components/HelloWorld.vue";
 export default {
-    name: 'home',
+  name: 'home',
+  components: {
+    HelloWorld
+  },
   data () {
     return {
       msg: '首页'
